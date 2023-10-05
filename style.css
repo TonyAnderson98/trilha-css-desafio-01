@@ -42,12 +42,39 @@ h1 {
 
 }
 
+h2 {
+    margin-top: 40px;
+    font-size: 30pt;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text; /* Gradiente vertical de azul claro para azul escuro */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente por trás */
+}
+
+
+
 header p {
     color: white;
     font-size: 20px;
     font-weight: 400;
     padding-top: 10px;
     width: 600px;
+    margin: auto;
+}
+
+section p {
+    text-align: center;
+    width: 800px;
+    color: white;
+    margin: auto;
+}
+
+#course-content p {
+    color: white;
+    text-align: center;
+    width: 800px;
     margin: auto;
 }
 
@@ -68,3 +95,23 @@ button {
 
 
 
+.module {
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 24px auto;
+    border: #0596c0 solid 1px;
+    width: 530px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.module span {
+    color: #0596c0;
+}
+
+
+.dio-logo {
+    align-items: center;
+    margin: auto;
+}
