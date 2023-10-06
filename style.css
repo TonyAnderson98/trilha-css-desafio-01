@@ -102,3 +102,40 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+#professional-challenges {
+    text-align: center;
+    margin: 60px;
+}
+
+#professional-challenges h2 {
+    color: #0099cf;
+    font-weight: 700;
+    font-size: 22pt;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+}
+
+#professional-challenges p {
+    width: 800px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+
+footer {
+    text-align: center;
+    border-top: #0099cf solid 1px;
+}
+
+footer img {
+    padding: 50px;
+}
+
+footer a {
+    font-weight: 700;
+    color: #0099cf;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
