@@ -2,116 +2,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
 * {
-    font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
 }
-
-
-
-
-.banner {
-    text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('assets/images/banner.png');
-    background-size: cover;
-    height: 600px;
-    margin-top: 50px;
-    border-bottom: 1px solid #33A8DB80;
-}
-
-
-
-
-
 
 body {
+    font-family: 'Raleway';
     background-color: black;
+    color: white;
 }
 
-h1 {
-    font-size: 40pt;
-    font-weight: 900;
-    text-transform: uppercase;
-    /* Configura gradiente */
-    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
-    background-clip: text; /* Gradiente vertical de azul claro para azul escuro */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente por trás */
 
+.banner-content {
+    text-align: center;
+    border-bottom: #0099cf solid 1px;
 }
 
-h2 {
-    margin-top: 40px;
+.banner-content img {
+    margin-top: 50px;
+}
+
+.banner-content h1 {
     font-size: 30pt;
-    text-align: center;
-    text-transform: uppercase;
-    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
-    background-clip: text; /* Gradiente vertical de azul claro para azul escuro */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente por trás */
-}
-
-
-
-header p {
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    padding-top: 10px;
-    width: 600px;
-    margin: auto;
-}
-
-section p {
-    text-align: center;
-    width: 800px;
-    color: white;
-    margin: auto;
-}
-
-#course-content p {
-    color: white;
-    text-align: center;
-    width: 800px;
-    margin: auto;
-}
-
-button {
-    font-size: 16px;
     font-weight: 900;
+    color: #0099cf;
     text-transform: uppercase;
-    color: #31A8DD;
-    background-color: transparent;
-    border: 2px solid #3BA1CD;
-    padding: 20px;
-    width: 300px;
-    margin-top: 20px;
+    margin: 30px;
+}
+
+.banner-content p {
+    width: 550px;
+    font-size: 15pt;
+    margin: auto;
     margin-bottom: 50px;
 }
 
+.banner-content button {
+    padding: 20px 50px;
+    text-transform: uppercase;
+    font-size: 12pt;
+    font-weight: 900;
+    color: #0099cf;
+    background-color: transparent;
+    border-color: #0099cf;
+    margin-bottom: 50px;
+}
 
-
-
-
-.module {
-    color: white;
+#course-content {
     text-align: center;
-    align-items: center;
-    margin: 24px auto;
-    border: #0596c0 solid 1px;
-    width: 530px;
-    padding: 15px;
-    border-radius: 30px;
+    border-bottom: #0099cf solid 1px;
+    padding: 50px;
 }
 
-.module span {
-    color: #0596c0;
+#course-content h2 {
+    color: #0099cf;
+    font-weight: 700;
+    font-size: 22pt;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
 }
 
-
-.dio-logo {
-    align-items: center;
+#course-content p {
+    width: 800px;
     margin: auto;
+    margin-bottom: 40px;
+}
+
+#course-content .module {
+    width: 500px;
+    margin: 30px auto;
+    border: #0099cf solid 1px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#course-content .module span {
+    color: #0099cf;
+}
+
+#transform-world {
+    border-bottom: #0099cf solid 1px;
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#transform-world p {
+    font-size: 30pt;
+    font-weight: 900;
+    width: 350px;
+    color: white;
+    text-shadow: #0099cf 3px 3px;
+    text-transform: lowercase;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
